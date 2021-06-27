@@ -4,7 +4,6 @@ To setup environment:
 
 ```typescript
 npm install
-npm run postinstall
 ```
 
 To run dev
@@ -20,4 +19,5 @@ To run test case
 ```typescript
 npm run test
 ```
-"# single-spa-micro-front-demo" 
+
+"# single-spa-micro-front-demo"
