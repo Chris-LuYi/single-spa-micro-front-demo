@@ -15,7 +15,6 @@ const Detail = ({ desc, handleMoveTicket, history }: { desc: string; handleMoveT
   } = useTicket();
   const ref = useRef<HTMLTextAreaElement>();
   const current = entities[id];
-  console.log(current, id);
   if (!current) throw Error("Invalid request: " + id);
   const fieldCheckWrapper = (status) => () => {
     if (ref.current?.value) {

@@ -23,11 +23,6 @@ export default () => {
 
   const changeTicketStatus = useCallback(
     (id: number, newStatus: TicketStatus, newComment?: string) => () => {
-      console.log({
-        id,
-        newStatus,
-        newComment,
-      });
       dispatch({
         type: `ticket/changeStatus`,
         payload: {
