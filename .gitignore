@@ -70,3 +70,6 @@ build/Release
 **/*.sln
 **/*.sw?
 **/.DS_Store
+
+
+**/package-lock.json
