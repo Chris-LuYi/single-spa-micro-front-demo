@@ -1,0 +1,15 @@
+{
+  "name": "incube8-test",
+  "version": "1.0.0",
+  "description": "micro-frontend test solution",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd root && npm install && cd ../ticket && npm install",
+    "start": "concurrently \"cd root && npm start\" \"cd ticket && npm start\"",
+    "test": "cd ticket && npm test --watchAll=false"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0"
+  },
+  "author": "Chris Lu Yi"
+}
