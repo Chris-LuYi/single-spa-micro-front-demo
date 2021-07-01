@@ -56,6 +56,7 @@ export default createUseStyles({
     padding: 12,
     display: "flex",
     flexWrap: "wrap",
+    marginBottom: 12,
     gap: 12,
     "& > span": {
       flexBasis: "100%",
